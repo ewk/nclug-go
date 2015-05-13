@@ -1,0 +1,21 @@
+This is a copy of the presentation I gave at the
+Northern Colorado Linux Users Group on May 12, 2015.
+
+The slides are also available here:
+https://docs.google.com/presentation/d/1JWDuDnuPf_V_IgSXV4QzOMK8bnJ5nueJ1MqA0Vev6qM/pub?start=false&loop=false&delayms=60000
+
+Less is More
+An introduction to Go
+Eddie Kovsky
+
+Go is a new general purpose programming language. It is one of the more
+mature entries among the many new languages that have emerged recently
+for systems programming. Go was designed from scratch to take advantage
+of modern hardware while avoiding some of the pitfalls of previous C
+like languages. This introductory talk will highlight some of the
+design choices and features of Go that make it powerful and unique.
+
+The presentation is licensed under the Creative Commons
+"Attribution-Noncommercial-ShareAlike" license, version 3.0, that can be
+found in detail at:
+	http://creativecommons.org/licenses/by-nc-sa/3.0/

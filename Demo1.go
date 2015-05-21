@@ -22,8 +22,9 @@ func getLog(c chan bool, i complex128) {
 }
 
 func main() {
-	// buffered channel of bool; doesn't need a receiver
-	// this effectively makes the done channel a 'first in, first out' queue
+	// Buffered channel of bool.
+	// Buffer size of 1 makes the done channel a semaphore.
+	// All channels behave as a 'first in, first out' queue.
 	done := make(chan bool, 1)
 	nums := []complex128{7, 8, cmplx.Sqrt(-9), 10} // slice literal
 
